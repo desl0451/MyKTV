@@ -1,0 +1,17 @@
+D:\Work\MyKTV\MyKTV\bin\Debug\MyKTV.exe
+D:\Work\MyKTV\MyKTV\bin\Debug\MyKTV.pdb
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.Properties.Resources.resources
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.FrmLogin.resources
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.csproj.GenerateResource.Cache
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.exe
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.pdb
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.csprojResolveAssemblyReference.cache
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.FrmAdmin.resources
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.FrmAbout.resources
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.FrmEditSinger.resources
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.FrmEditSong.resources
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.FrmPhotoPath.resources
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.FrmSingerList.resources
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.FrmSongList.resources
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.FrmSongPath.resources
+D:\Work\MyKTV\MyKTV\obj\Debug\MyKTV.FrmMain.resources

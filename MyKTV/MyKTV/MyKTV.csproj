@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E336C5C-A013-4BEB-84C2-7B3FE46045F8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyKTV</RootNamespace>
+    <AssemblyName>MyKTV</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\FrmOrderBySinger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\FrmOrderBySinger.Designer.cs">
+      <DependentUpon>FrmOrderBySinger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\FrmOrderBySongName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\FrmOrderBySongName.Designer.cs">
+      <DependentUpon>FrmOrderBySongName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\FrmOrderBySongType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\FrmOrderBySongType.Designer.cs">
+      <DependentUpon>FrmOrderBySongType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\FrmOrderByWordCount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\FrmOrderByWordCount.Designer.cs">
+      <DependentUpon>FrmOrderByWordCount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\FrmOrderedSongList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\FrmOrderedSongList.Designer.cs">
+      <DependentUpon>FrmOrderedSongList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\FrmPlay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\FrmPlay.Designer.cs">
+      <DependentUpon>FrmPlay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\FrmOrderBySongList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\FrmOrderBySongList.Designer.cs">
+      <DependentUpon>FrmOrderBySongList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\FrmSongList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\FrmSongList.Designer.cs">
+      <DependentUpon>FrmSongList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\FrmEditSinger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\FrmEditSinger.Designer.cs">
+      <DependentUpon>FrmEditSinger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\FrmEditSong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\FrmEditSong.Designer.cs">
+      <DependentUpon>FrmEditSong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\FrmPhotoPath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\FrmPhotoPath.Designer.cs">
+      <DependentUpon>FrmPhotoPath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\FrmSingerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\FrmSingerList.Designer.cs">
+      <DependentUpon>FrmSingerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Server\FrmSongPath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\FrmSongPath.Designer.cs">
+      <DependentUpon>FrmSongPath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB\DBHelper.cs" />
+    <Compile Include="Server\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Server\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\KTVUtil.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\Song.cs" />
+    <Compile Include="Models\SongPlayList.cs" />
+    <EmbeddedResource Include="Client\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Server\FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\FrmEditSinger.resx">
+      <DependentUpon>FrmEditSinger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\FrmEditSong.resx">
+      <DependentUpon>FrmEditSong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\FrmPhotoPath.resx">
+      <DependentUpon>FrmPhotoPath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\FrmSingerList.resx">
+      <DependentUpon>FrmSingerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\FrmSongList.resx">
+      <DependentUpon>FrmSongList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Server\FrmSongPath.resx">
+      <DependentUpon>FrmSongPath.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Models\ktv.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
