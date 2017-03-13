@@ -28,11 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FrmOrderBySongType
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(650, 410);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "FrmOrderBySongType";
             this.Text = "FrmOrderBySongType";
+            this.Load += new System.EventHandler(this.FrmOrderBySongType_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
     }
 }

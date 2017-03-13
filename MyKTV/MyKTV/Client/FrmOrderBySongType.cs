@@ -14,5 +14,10 @@ namespace MyKTV
         {
             InitializeComponent();
         }
+        //窗体加载字数
+        private void FrmOrderBySongType_Load(object sender, EventArgs e)
+        {
+         
+        }
     }
 }

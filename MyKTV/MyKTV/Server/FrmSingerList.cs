@@ -21,16 +21,9 @@ namespace MyKTV
         }
         private void Initial()
         {
-            string sql = "select * from singer_type";
-            DataTable dt = DBHelper.GetDataSet(sql, "SingerType");
-            DataRow row = dt.NewRow();
-            row["singertype_id"] = -1;
-            row["singertype_name"] = "请选择";
-            dt.Rows.InsertAt(row, 0);
-            cboSingerType.DataSource = dt;
+            cboSingerType.DataSource = DBHelper.GetDataSet("select * from singer_type", "singer_type", true, "singertype_name", "singertype_id");
             cboSingerType.DisplayMember = "singertype_name";
             cboSingerType.ValueMember = "singertype_id";
-
             //加载所有歌手信息
             string singerSql = "SELECT   dbo.singer_type.singertype_name, dbo.singer_info.singer_name, dbo.singer_info.singer_description, dbo.singer_info.singer_gender FROM      dbo.singer_info INNER JOIN dbo.singer_type ON dbo.singer_info.singertype_id = dbo.singer_type.singertype_id where 1=1";
             dgvSingerList.DataSource = DBHelper.GetDataSet(singerSql, "ShowSinger");

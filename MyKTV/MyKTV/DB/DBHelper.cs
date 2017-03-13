@@ -42,6 +42,21 @@ namespace MyKTV
             da.Fill(ds, tableName);
             return ds.Tables[tableName];
         }
+        public static DataTable GetDataSet(string sql, string tableName,bool bl,string displayMember,string valueMember)
+        {
+            DataSet ds = new DataSet();
+            SqlDataAdapter da = new SqlDataAdapter(sql, DBHelper.connection);
+            da.Fill(ds, tableName);
+            if (bl == true)
+            {
+
+                DataRow row = ds.Tables[tableName].NewRow();
+                row[valueMember]=-1;
+                row[displayMember] = "全部";
+                ds.Tables[tableName].Rows.InsertAt(row, 0);
+            }
+            return ds.Tables[tableName];
+        }
         #endregion
     }
 }

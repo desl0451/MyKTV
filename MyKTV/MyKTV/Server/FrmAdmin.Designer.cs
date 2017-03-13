@@ -56,7 +56,7 @@
             this.msAdmin.Location = new System.Drawing.Point(0, 0);
             this.msAdmin.Name = "msAdmin";
             this.msAdmin.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.msAdmin.Size = new System.Drawing.Size(472, 25);
+            this.msAdmin.Size = new System.Drawing.Size(747, 25);
             this.msAdmin.TabIndex = 2;
             this.msAdmin.Text = "menuStrip1";
             // 
@@ -154,7 +154,7 @@
             // tsmiAbout
             // 
             this.tsmiAbout.Name = "tsmiAbout";
-            this.tsmiAbout.Size = new System.Drawing.Size(152, 22);
+            this.tsmiAbout.Size = new System.Drawing.Size(140, 22);
             this.tsmiAbout.Text = "关于我们(&A)";
             this.tsmiAbout.Click += new System.EventHandler(this.tsmiAbout_Click);
             // 
@@ -162,7 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(472, 402);
+            this.ClientSize = new System.Drawing.Size(747, 431);
             this.Controls.Add(this.msAdmin);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;

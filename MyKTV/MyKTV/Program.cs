@@ -15,10 +15,10 @@ namespace MyKTV
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //前台
-            //Application.Run(new FrmMain());
+            Application.Run(new FrmMain());
 
             //后台
-            Application.Run(new FrmLogin());
+            //Application.Run(new FrmLogin());
         }
     }
 }

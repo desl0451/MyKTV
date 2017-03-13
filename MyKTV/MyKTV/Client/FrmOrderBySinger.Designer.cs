@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FrmOrderBySinger
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(634, 383);
+            this.Name = "FrmOrderBySinger";
             this.Text = "FrmOrderBySinger";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

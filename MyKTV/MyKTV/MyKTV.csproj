@@ -88,6 +88,12 @@
     <Compile Include="Client\FrmOrderBySongList.Designer.cs">
       <DependentUpon>FrmOrderBySongList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Client\FrmSongLists.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\FrmSongLists.Designer.cs">
+      <DependentUpon>FrmSongLists.cs</DependentUpon>
+    </Compile>
     <Compile Include="Server\FrmSongList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +156,21 @@
     <Compile Include="Models\SongPlayList.cs" />
     <EmbeddedResource Include="Client\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\FrmOrderBySinger.resx">
+      <DependentUpon>FrmOrderBySinger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\FrmOrderBySongName.resx">
+      <DependentUpon>FrmOrderBySongName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\FrmOrderBySongType.resx">
+      <DependentUpon>FrmOrderBySongType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\FrmOrderByWordCount.resx">
+      <DependentUpon>FrmOrderByWordCount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\FrmSongLists.resx">
+      <DependentUpon>FrmSongLists.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
